@@ -89,7 +89,7 @@ namespace Hjemmeoppgave_Entur_Github
         {
             TrainSystem trainSystem = new TrainSystem();
 
-            Console.WriteLine("Oppgave 1: createDeparture(string origin, string destination, int passengers, DateTime start)");
+            Console.WriteLine("Oppgave 1: Oppretter togavgang. (createDeparture)");
 
             trainSystem.createDeparture(new Departure("Lillehammer", "Lillehammer", 300, DateTime.Parse("00:00:00")));
             trainSystem.createDeparture(new Departure("Moelv", "Ringsaker", 175, DateTime.Parse("00:30:00")));
